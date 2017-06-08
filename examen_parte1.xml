@@ -1,48 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pais SYSTEM "pais.dtd">
-
+<!DOCTYPE comunidad SYSTEM "examen_parte2.dtd">
 <pais>
-  <comunidad codigo="1">
-    <dia_comunidad dia="23" mes="4"></dia_comunidad>
-    <nome_comunidad>Galicia</nome_comunidad>
-    <nome_presidente>Paquita la del Barrio</nome_presidente>
-    <provincia codigo="10" costa="Sí">
-      <nome>Pontevedra</nome>
-      <superficie unidade="324"></superficie>
-      <concello codigo="11" capital="O Porriño">
-        <nome>O Porriño</nome>
-        <localidad>
-          <festivo_local dia="16" mes="6">
-            <descripcion>Callada del Coren</descripcion>
-          </festivo_local>
-          <festivo_local dia="3" mes="12">
-            <descripcion>Viño con sardiñas</descripcion>
-          </festivo_local>
-        </localidad>
-      </concello>
-    </provincia>
-  </comunidad>
-  
-  <comunidad codigo="2">
-    <dia_comunidad dia="17" mes="2"></dia_comunidad>
-    <nome_comunidad>Andalucía</nome_comunidad>
-    <nome_presidente>Britney Spears</nome_presidente>
-    <provincia codigo="15" costa="Sí">
-      <nome>Málaga</nome>
-      <superficie unidade="">450</superficie>
-      <concello codigo="23" capital="Las ronchas">
-        <nome>Las ronchas</nome>
-        <localidad>
-          <festivo_local dia="31" mes="5">
-            <descripcion>Feria de mayo</descripcion>
-          </festivo_local>
-          <festivo_local dia="16" mes="1">
-            <descripcion></descripcion>
-          </festivo_local>
-        </localidad>
-      </concello>    
-    </provincia>
-  </comunidad>
-</pais>
-
-      
+    <comunidad codigo="1">
+      <dia_comunidad dia="23" mes="4"></dia_comunidad>
+      <nome_comunidad>Galicia</nome_comunidad>
+      <nome_presidente>Paquita la del Barrio</nome_presidente>
+      <provincia codigo="10" costa="Sí">
+        <nome>Pontevedra</nome>
+        <superficie unidade="324"></superficie>
+        <concello codigo="11" capital="O Porriño">
+          <nome>O Porriño</nome>
+          <localidad>
+            <festivo_local dia="16" mes="6">
+              <descripcion>Callada del Coren</descripcion>
+            </festivo_local>
+            <festivo_local dia="3" mes="12">
+              <descripcion>Viño con sardiñas</descripcion>
+            </festivo_local>
+          </localidad>
+        </concello>
+      </provincia>
+    </comunidad>
+    <comunidad codigo="2">
+      <dia_comunidad dia="17" mes="2"></dia_comunidad>
+      <nome_comunidad>Andalucía</nome_comunidad>
+      <nome_presidente>Britney Spears</nome_presidente>
+      <provincia codigo="15" costa="Sí">
+        <nome>Málaga</nome>
+        <superficie unidade="">450</superficie>
+        <concello codigo="23" capital="Las ronchas">
+          <nome>Las ronchas</nome>
+          <localidad>
+            <festivo_local dia="31" mes="5">
+              <descripcion>Feria de mayo</descripcion>
+            </festivo_local>
+            <festivo_local dia="16" mes="1">
+              <descripcion></descripcion>
+            </festivo_local>
+          </localidad>
+        </concello>    
+      </provincia>
+    </comunidad>
+  </pais>

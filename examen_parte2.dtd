@@ -1,4 +1,4 @@
-<!ELEMENT comunidad EMPTY (dia_comunidad, nome_comunidad, nome_presidente)>
+<!ELEMENT comunidad (dia_comunidad, nome_comunidad, nome_presidente, provincia) >
 <!ATTLIST 
   codigo ID #REQUIRED (#PCDATA)
   dia  #REQUIRED (#PCDATA)
