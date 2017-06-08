@@ -1,14 +1,20 @@
-<!ELEMENT comunidad (dia_comunidad, nome_comunidad, nome_presidente, provincia) >
+<!ELEMENT pais (comunidad)>
+<!ELEMENT comunidad (dia_comunidad, nome_comunidad, nome_presidente, provincia)>
+<!ELEMENT provincia (nome, superficie, concello)>
+<!ELEMENT concello (nome, localidad)>
+<!ELEMENT localidad (festivo_local, )>
+<!ELEMENT festivo_local (descripcion?)>
+
+
 <!ATTLIST 
-  codigo ID #REQUIRED (#PCDATA)
-  dia  #REQUIRED (#PCDATA)
-  mes  #REQUIRED (#PCDATA)
-  costa "Sí" (#PCDATA) >
-  
-<!ELEMENT provincia (nome, superficie)>
+  codigo ID #REQUIRED CDATA
+>
 <!ATTLIST
   codigo ID #REQUIRED (#PCDATA)
   costa "Sí" (#PCDATA)>
   
-<!ELEMENT concello (nome)>
-<!ELEMENT localidad(festivo_local, descripcion?)>
+  <!ATTLIST 
+  codigo ID #REQUIRED (#PCDATA)
+  dia  #REQUIRED (#PCDATA)
+  mes  #REQUIRED (#PCDATA)
+  costa "Sí" (#PCDATA) >

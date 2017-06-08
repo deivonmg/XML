@@ -1,0 +1,8 @@
+- selecciona el codigo de comunidad cuyo codigo de provincia es 10
+//comunidad[provincia[@codigo="10"]]/@codigo
+
+- selecciona la comunidad cuyo dia de la comunidad es 17
+//comunidad[dia_comunidad[@dia="23"]]
+
+- seleccciona el unidad de superficie  de la comunidad cuyo día de comunidad es en el mes 2
+//comunidad[dia_comunidad[@mes="2"]]/provincia/superficie[@unidade]
