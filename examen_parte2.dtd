@@ -1,0 +1,14 @@
+<!ELEMENT comunidad EMPTY (dia_comunidad, nome_comunidad, nome_presidente)>
+<!ATTLIST 
+  codigo ID #REQUIRED (#PCDATA)
+  dia  #REQUIRED (#PCDATA)
+  mes  #REQUIRED (#PCDATA)
+  costa "Sí" (#PCDATA) >
+  
+<!ELEMENT provincia (nome, superficie)>
+<!ATTLIST
+  codigo ID #REQUIRED (#PCDATA)
+  costa "Sí" (#PCDATA)>
+  
+<!ELEMENT concello (nome)>
+<!ELEMENT localidad(festivo_local, descripcion?)>
